@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Vials', 'syring']
+
+roboflow:
+  workspace: shubham-lokare-4gnol
+  project: vial-counting-tyo8r
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shubham-lokare-4gnol/vial-counting-tyo8r/dataset/14
